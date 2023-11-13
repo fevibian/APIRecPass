@@ -4,4 +4,4 @@ from .models import Newpass
 class NewpassSerializer(serializers.ModelSerializer):
     class Meta:
         model = Newpass
-        fields = '__all__'
+        fields = ['email', 'password']
